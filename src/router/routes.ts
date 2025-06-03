@@ -3,6 +3,7 @@ import RootLayout from "../layouts/RootLayout.tsx";
 import Home from "../pages/Home.tsx";
 import ToastNotification from "../pages/ToastNotification.tsx";
 import StarPage from "../pages/StarPage.tsx";
+import PaginationPage from "../pages/PaginationPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: "star",
         Component: StarPage,
+      },
+      {
+        path: "pagination",
+        Component: PaginationPage,
       },
     ],
   },
