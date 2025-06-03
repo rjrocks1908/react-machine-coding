@@ -4,6 +4,7 @@ import Home from "../pages/Home.tsx";
 import ToastNotification from "../pages/ToastNotification.tsx";
 import StarPage from "../pages/StarPage.tsx";
 import PaginationPage from "../pages/PaginationPage.tsx";
+import OtpPage from "../pages/OtpPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: "pagination",
         Component: PaginationPage,
+      },
+      {
+        path: "otp",
+        Component: OtpPage,
       },
     ],
   },

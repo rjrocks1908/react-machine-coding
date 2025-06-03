@@ -1,0 +1,24 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-items: center;
+}
+
+.box {
+  margin: 1rem;
+}
+
+.otp {
+  height: 3rem;
+  width: 3rem;
+  padding: 0;
+  font-size: xx-large;
+  text-align: center;
+}
