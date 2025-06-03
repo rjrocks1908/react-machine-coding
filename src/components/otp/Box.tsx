@@ -13,7 +13,12 @@ function Box({
   const inputRef = useRef(null);
 
   useEffect(() => {
-    if (inputRef.current) inputRefs.current[id] = inputRef.current;
+    if (inputRef.current) {
+      inputRefs.current[id] = inputRef.current;
+      if (id == 0) {
+        inputRefs.current[id]?.focus();
+      }
+    }
   }, [id, inputRef]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
