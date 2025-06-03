@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import Box from "../components/otp/box";
+import Box from "../components/otp/Box";
 import "../styles/otp.css";
 
 function OtpPage() {
