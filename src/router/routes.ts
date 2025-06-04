@@ -5,6 +5,7 @@ import ToastNotification from "../pages/ToastNotification.tsx";
 import StarPage from "../pages/StarPage.tsx";
 import PaginationPage from "../pages/PaginationPage.tsx";
 import OtpPage from "../pages/OtpPage.tsx";
+import CarouselPage from "../pages/CarouselPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
       {
         path: "otp",
         Component: OtpPage,
+      },
+      {
+        path: "carousel",
+        Component: CarouselPage,
       },
     ],
   },
