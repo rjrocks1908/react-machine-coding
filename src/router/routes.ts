@@ -6,6 +6,7 @@ import StarPage from "../pages/StarPage.tsx";
 import PaginationPage from "../pages/PaginationPage.tsx";
 import OtpPage from "../pages/OtpPage.tsx";
 import CarouselPage from "../pages/CarouselPage.tsx";
+import SearchPage from "../pages/SearchPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ export const router = createBrowserRouter([
         path: "carousel",
         Component: CarouselPage,
       },
+      {
+        path: "search",
+        Component: SearchPage
+      }
     ],
   },
 ]);
