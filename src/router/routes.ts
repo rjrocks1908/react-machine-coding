@@ -8,6 +8,7 @@ import OtpPage from "../pages/OtpPage.tsx";
 import CarouselPage from "../pages/CarouselPage.tsx";
 import SearchPage from "../pages/SearchPage.tsx";
 import InfiniteScrollPage from "../pages/InfiniteScrollPage.tsx";
+import ProgressBarPage from "../pages/ProgressBarPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ export const router = createBrowserRouter([
       {
         path: "infinitescroll",
         Component: InfiniteScrollPage,
+      },
+      {
+        path: "progressbar",
+        Component: ProgressBarPage,
       },
     ],
   },

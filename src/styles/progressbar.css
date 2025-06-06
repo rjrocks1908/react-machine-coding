@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-items: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.bar-container {
+  border-radius: 10rem;
+  border-color: azure;
+  width: 20rem;
+  height: 2rem;
+  outline-color: azure;
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background-color: green;
+  transition: transform 0.03 linear;
+}
