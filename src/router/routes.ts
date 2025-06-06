@@ -9,6 +9,7 @@ import CarouselPage from "../pages/CarouselPage.tsx";
 import SearchPage from "../pages/SearchPage.tsx";
 import InfiniteScrollPage from "../pages/InfiniteScrollPage.tsx";
 import ProgressBarPage from "../pages/ProgressBarPage.tsx";
+import AccordionPage from "../pages/AccordionPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ export const router = createBrowserRouter([
       {
         path: "progressbar",
         Component: ProgressBarPage,
+      },
+      {
+        path: "accordion",
+        Component: AccordionPage,
       },
     ],
   },
