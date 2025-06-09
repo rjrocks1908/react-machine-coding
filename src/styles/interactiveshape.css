@@ -1,0 +1,21 @@
+.ishape-container {
+  margin: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  width: 5rem;
+  height: 5rem;
+  margin: 3px;
+  cursor: pointer;
+  border: 1px solid wheat;
+  transition: all 0.3s;
+}
+
+.active {
+  background-color: aqua;
+}
