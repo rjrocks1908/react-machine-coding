@@ -11,6 +11,7 @@ import InfiniteScrollPage from "../pages/InfiniteScrollPage.tsx";
 import ProgressBarPage from "../pages/ProgressBarPage.tsx";
 import AccordionPage from "../pages/AccordionPage.tsx";
 import StopWatchPage from "../pages/StopWatchPage.tsx";
+import FileExplorerPage from "../pages/FileExplorerPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ export const router = createBrowserRouter([
       {
         path: "stopwatch",
         Component: StopWatchPage,
+      },
+      {
+        path: "fileexplorer",
+        Component: FileExplorerPage,
       },
     ],
   },

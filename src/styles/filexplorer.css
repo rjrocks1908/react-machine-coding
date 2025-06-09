@@ -1,0 +1,12 @@
+.file-explorer-container {
+  margin: 2rem;
+}
+
+.file-explorer {
+  border-left: 1px solid white;
+  padding-left: 0.5rem;
+}
+
+.file-explorer > h5 > span {
+  padding-left: 0.5rem;
+}
