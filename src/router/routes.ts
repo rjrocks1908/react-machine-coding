@@ -13,6 +13,7 @@ import AccordionPage from "../pages/AccordionPage.tsx";
 import StopWatchPage from "../pages/StopWatchPage.tsx";
 import FileExplorerPage from "../pages/FileExplorerPage.tsx";
 import InteractiveShapePage from "../pages/InteractiveShapePage.tsx";
+import TicTacToePage from "../pages/TicTacToePage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -70,6 +71,10 @@ export const router = createBrowserRouter([
       {
         path: "interactiveshape",
         Component: InteractiveShapePage,
+      },
+      {
+        path: "tictactoe",
+        Component: TicTacToePage,
       },
     ],
   },
