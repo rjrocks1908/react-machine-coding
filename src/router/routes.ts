@@ -14,6 +14,7 @@ import StopWatchPage from "../pages/StopWatchPage.tsx";
 import FileExplorerPage from "../pages/FileExplorerPage.tsx";
 import InteractiveShapePage from "../pages/InteractiveShapePage.tsx";
 import TicTacToePage from "../pages/TicTacToePage.tsx";
+import SnakePage from "../pages/SnakePage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -75,6 +76,10 @@ export const router = createBrowserRouter([
       {
         path: "tictactoe",
         Component: TicTacToePage,
+      },
+      {
+        path: "snake",
+        Component: SnakePage,
       },
     ],
   },
