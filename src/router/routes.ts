@@ -17,6 +17,7 @@ import TicTacToePage from "../pages/TicTacToePage.tsx";
 import SnakePage from "../pages/SnakePage.tsx";
 import TodoPage from "../pages/TodoPage.tsx";
 import VirtualizedListPage from "../pages/VirtualizedListPage.tsx";
+import StepperPage from "../pages/StepperPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -90,6 +91,10 @@ export const router = createBrowserRouter([
       {
         path: "vlist",
         Component: VirtualizedListPage,
+      },
+      {
+        path: "stepper",
+        Component: StepperPage,
       },
     ],
   },
