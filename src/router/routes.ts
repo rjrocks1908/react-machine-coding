@@ -18,6 +18,7 @@ import SnakePage from "../pages/SnakePage.tsx";
 import TodoPage from "../pages/TodoPage.tsx";
 import VirtualizedListPage from "../pages/VirtualizedListPage.tsx";
 import StepperPage from "../pages/StepperPage.tsx";
+import TabPage from "../pages/TabPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -95,6 +96,10 @@ export const router = createBrowserRouter([
       {
         path: "stepper",
         Component: StepperPage,
+      },
+      {
+        path: "tab",
+        Component: TabPage,
       },
     ],
   },
