@@ -20,6 +20,7 @@ import VirtualizedListPage from "../pages/VirtualizedListPage.tsx";
 import StepperPage from "../pages/StepperPage.tsx";
 import TabPage from "../pages/TabPage.tsx";
 import MemoryGamePage from "../pages/MemoryGamePage.tsx";
+import CommentBoxPage from "../pages/CommentBoxPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -106,6 +107,10 @@ export const router = createBrowserRouter([
         path: "memory-game",
         Component: MemoryGamePage,
       },
+      {
+        path: "comment-box",
+        Component: CommentBoxPage
+      }
     ],
   },
 ]);
