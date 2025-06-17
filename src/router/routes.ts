@@ -19,6 +19,7 @@ import TodoPage from "../pages/TodoPage.tsx";
 import VirtualizedListPage from "../pages/VirtualizedListPage.tsx";
 import StepperPage from "../pages/StepperPage.tsx";
 import TabPage from "../pages/TabPage.tsx";
+import MemoryGamePage from "../pages/MemoryGamePage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -100,6 +101,10 @@ export const router = createBrowserRouter([
       {
         path: "tab",
         Component: TabPage,
+      },
+      {
+        path: "memory-game",
+        Component: MemoryGamePage,
       },
     ],
   },
