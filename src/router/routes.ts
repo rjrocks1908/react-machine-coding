@@ -23,6 +23,7 @@ import MemoryGamePage from "../pages/MemoryGamePage.tsx";
 import CommentBoxPage from "../pages/CommentBoxPage.tsx";
 import TrafficLightPage from "../pages/TrafficLightPage.tsx";
 import CalendarPage from "../pages/CalendarPage.tsx";
+import MemoHookPage from "../pages/MemoHookPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -120,6 +121,10 @@ export const router = createBrowserRouter([
       {
         path: "calendar",
         Component: CalendarPage,
+      },
+      {
+        path: "memo",
+        Component: MemoHookPage,
       },
     ],
   },
