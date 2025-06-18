@@ -22,6 +22,7 @@ import TabPage from "../pages/TabPage.tsx";
 import MemoryGamePage from "../pages/MemoryGamePage.tsx";
 import CommentBoxPage from "../pages/CommentBoxPage.tsx";
 import TrafficLightPage from "../pages/TrafficLightPage.tsx";
+import CalendarPage from "../pages/CalendarPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -115,6 +116,10 @@ export const router = createBrowserRouter([
       {
         path: "traffic-light",
         Component: TrafficLightPage,
+      },
+      {
+        path: "calendar",
+        Component: CalendarPage,
       },
     ],
   },
