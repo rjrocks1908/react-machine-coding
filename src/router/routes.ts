@@ -25,6 +25,7 @@ import TrafficLightPage from "../pages/TrafficLightPage.tsx";
 import CalendarPage from "../pages/CalendarPage.tsx";
 import MemoHookPage from "../pages/MemoHookPage.tsx";
 import KanbanPage from "../pages/KanbanPage.tsx";
+import ModalPage from "../pages/ModalPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -130,6 +131,10 @@ export const router = createBrowserRouter([
       {
         path: "kanban",
         Component: KanbanPage,
+      },
+      {
+        path: "modal",
+        Component: ModalPage,
       },
     ],
   },
