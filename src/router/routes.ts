@@ -26,6 +26,7 @@ import CalendarPage from "../pages/CalendarPage.tsx";
 import MemoHookPage from "../pages/MemoHookPage.tsx";
 import KanbanPage from "../pages/KanbanPage.tsx";
 import ModalPage from "../pages/ModalPage.tsx";
+import CryptoPage from "../pages/CryptoPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -135,6 +136,10 @@ export const router = createBrowserRouter([
       {
         path: "modal",
         Component: ModalPage,
+      },
+      {
+        path: "crypto",
+        Component: CryptoPage,
       },
     ],
   },
