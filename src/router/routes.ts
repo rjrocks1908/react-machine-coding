@@ -24,6 +24,7 @@ import CommentBoxPage from "../pages/CommentBoxPage.tsx";
 import TrafficLightPage from "../pages/TrafficLightPage.tsx";
 import CalendarPage from "../pages/CalendarPage.tsx";
 import MemoHookPage from "../pages/MemoHookPage.tsx";
+import KanbanPage from "../pages/KanbanPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -125,6 +126,10 @@ export const router = createBrowserRouter([
       {
         path: "memo",
         Component: MemoHookPage,
+      },
+      {
+        path: "kanban",
+        Component: KanbanPage,
       },
     ],
   },
