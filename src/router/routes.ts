@@ -29,6 +29,7 @@ import ModalPage from "../pages/ModalPage.tsx";
 import CryptoPage from "../pages/CryptoPage.tsx";
 import IntermediateCheckBoxPage from "../pages/IntermediateCheckBoxPage.tsx";
 import TypingEffectPage from "../pages/TypingEffectPage.tsx";
+import FileUploaderPage from "../pages/FileUploaderPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -150,6 +151,10 @@ export const router = createBrowserRouter([
       {
         path: "typing-effect",
         Component: TypingEffectPage,
+      },
+      {
+        path: "file-uploader",
+        Component: FileUploaderPage,
       },
     ],
   },
