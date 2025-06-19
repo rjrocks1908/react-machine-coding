@@ -27,6 +27,7 @@ import MemoHookPage from "../pages/MemoHookPage.tsx";
 import KanbanPage from "../pages/KanbanPage.tsx";
 import ModalPage from "../pages/ModalPage.tsx";
 import CryptoPage from "../pages/CryptoPage.tsx";
+import IntermediateCheckBoxPage from "../pages/IntermediateCheckBoxPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -140,6 +141,10 @@ export const router = createBrowserRouter([
       {
         path: "crypto",
         Component: CryptoPage,
+      },
+      {
+        path: "intermediate-checkbox",
+        Component: IntermediateCheckBoxPage,
       },
     ],
   },
