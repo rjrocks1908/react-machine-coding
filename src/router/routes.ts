@@ -28,6 +28,7 @@ import KanbanPage from "../pages/KanbanPage.tsx";
 import ModalPage from "../pages/ModalPage.tsx";
 import CryptoPage from "../pages/CryptoPage.tsx";
 import IntermediateCheckBoxPage from "../pages/IntermediateCheckBoxPage.tsx";
+import TypingEffectPage from "../pages/TypingEffectPage.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -145,6 +146,10 @@ export const router = createBrowserRouter([
       {
         path: "intermediate-checkbox",
         Component: IntermediateCheckBoxPage,
+      },
+      {
+        path: "typing-effect",
+        Component: TypingEffectPage,
       },
     ],
   },
